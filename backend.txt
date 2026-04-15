@@ -1,0 +1,11 @@
+backend api, signup api
+
+list cards
+
+edit card
+
+create card
+
+delete card
+
+completed by joel
