@@ -1,2 +1,5 @@
 joel completed the wireframe
+joel completed the card component,
+joel completed the card container,
+joel added styling to component and container
 alex completed the signup form
