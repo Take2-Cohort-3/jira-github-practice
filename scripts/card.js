@@ -15,6 +15,7 @@ function createLinkItem(link) {
   anchor.target = '_blank';
   anchor.rel = 'noopener noreferrer';
   anchor.textContent = link.label;
+  anchor.setAttribute('aria-label', `${link.label} (opens in new tab)`);
 
   item.appendChild(anchor);
   return item;
