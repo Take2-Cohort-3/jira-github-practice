@@ -38,7 +38,7 @@ export function createCard(cardData = {}) {
   avatar.src = cardData.profileImage || DEFAULT_PROFILE;
   avatar.alt = `${cardData.name || DEFAULT_NAME} profile`;
 
-  const name = document.createElement('h2');
+  const name = document.createElement('h3');
   name.className = 'card__name';
   name.textContent = cardData.name || DEFAULT_NAME;
 
